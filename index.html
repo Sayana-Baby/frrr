@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+   
+
+</head>
+<body>
+    
+        <div class="">
+            <div class="row ">
+                 <div class="col-md-4">
+                    <p></p>
+                 </div>
+                
+                 <div class="col-md-4 calc">
+                 
+                <div class="container_fluid c1">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <center>
+                                <input type="text" id="screen" readonly/>
+                            </center>
+                            
+                        </div>
+                
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button  onclick="clr()" class="btn btn-primary">clear</button>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button onclick="buttonclick('7')"class="btn btn-primary  btn-large">7</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button onclick="buttonclick('7')"class="btn btn-primary  btn-large">8</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="buttonclick(9)"class="btn btn-primary btn-large">9</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="operclick('+')"class="btn btn-primary btn-large">+</button>
+                        </div>
+                        
+                        
+                       
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button onclick="buttonclick(4)"class="btn btn-primary">4</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="buttonclick(5)"class="btn btn-primary">5</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="buttonclick(6)"class="btn btn-primary">6</button>
+                        </div>
+                        <div class="col-md-3">
+                            
+                        <button onclick="operclick('-')"class="btn btn-primary">-</button>
+                        </div>
+                        
+                        
+                      
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button onclick="buttonclick(3)"class="btn btn-primary">3</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="buttonclick(2)"class="btn btn-primary">2</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="buttonclick(1)"class="btn btn-primary">1</button>
+                        </div>
+                        <div class="col-md-3">
+                            
+                        <button onclick="operclick('/')"class="btn btn-primary">/</button>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button onclick="buttonclick('.')"class="btn btn-primary">.</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="buttonclick(0)"class="btn btn-primary">0</button>
+                        </div>
+                        <div class="col-md-3">
+                            
+                        <button onclick="operclick('*')"class="btn btn-primary">X</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button  id="btn1 " onclick="equalclick('=')"class="btn btn-primary">=</button> 
+                        </div>
+                    </div>
+                </div>
+         
+                 </div>
+                
+                <div class="col-md-4">
+
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js">
+
+    </script>   
+</body>
+</html>
